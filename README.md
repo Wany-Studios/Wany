@@ -6,6 +6,10 @@ This repository allow you to run both frontend and backend and simulate a produc
 
 You need to have Docker and Git installed. 
 
+## Environment
+
+You can extend environment variables by creating a `.env.local` or/and `.env.production.local`. See the .env file inside the backend folder for all the possibilities.
+
 ## How to run
 
 Open terminal in target directory and run:
