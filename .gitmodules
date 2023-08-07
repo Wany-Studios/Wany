@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Wany-Studios/Wany-Frontend.git
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Wany-Studios/Wany-API.git
