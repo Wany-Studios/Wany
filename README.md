@@ -4,7 +4,7 @@ This repository allow you to run both frontend and backend and simulate a produc
 
 ## Requirements
 
-You need to have Docker and Git installed. 
+You need to have Docker and Git installed.
 
 ## Environment
 
@@ -13,8 +13,9 @@ You can extend environment variables by creating a `.env.local` or/and `.env.pro
 ## How to run
 
 Open terminal in target directory and run:
+
 ```
 git clone --recursive https://github.com/Wany-Studios/Wany-Production.git
 ```
 
-Then open the project folder and run `docker-compose up -d --build`, make sure that Docker is running before executing this command.
+Open the project folder, execute `git pull` inside backend and frontend folder, then run `docker-compose up -d --build`. Make sure that Docker is running before executing this command.
