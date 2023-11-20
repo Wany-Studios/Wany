@@ -1,21 +1,3 @@
-# FROM docker/compose:latest
-
-# ARG GITHUB_USERNAME
-# ARG GITHUB_TOKEN
-
-# RUN apk update && \
-#     apk upgrade && \
-#     apk add --no-cache git && \
-#     git config --global credential.helper store && \
-#     git clone --recursive https://$GITHUB_USERNAME:$GITHUB_TOKEN@github.com/Wany-Studios/Wany-Production.git /app
-
-# WORKDIR /app
-
-# RUN echo "" > backend/.env.local
-
-# CMD ["tail", "-f", "/dev/null"]
-# CMD ["docker-compose", "up"]
-
 FROM ubuntu:latest
 
 ENV GOOGLE_CLIENT_ID=935362793165-l5lphpf3artovol5an7aoku3ri4n14hv.apps.googleusercontent.com
